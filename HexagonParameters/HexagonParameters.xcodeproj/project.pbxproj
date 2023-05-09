@@ -11,6 +11,7 @@
 		E4287D6E2A0A117600E38CDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D6D2A0A117600E38CDC /* ContentView.swift */; };
 		E4287D702A0A117700E38CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4287D6F2A0A117700E38CDC /* Assets.xcassets */; };
 		E4287D742A0A117700E38CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4287D732A0A117700E38CDC /* Preview Assets.xcassets */; };
+		E4287D7B2A0A12B800E38CDC /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D7A2A0A12B800E38CDC /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E4287D6F2A0A117700E38CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4287D712A0A117700E38CDC /* HexagonParameters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HexagonParameters.entitlements; sourceTree = "<group>"; };
 		E4287D732A0A117700E38CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4287D7A2A0A12B800E38CDC /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E4287D6F2A0A117700E38CDC /* Assets.xcassets */,
 				E4287D712A0A117700E38CDC /* HexagonParameters.entitlements */,
 				E4287D722A0A117700E38CDC /* Preview Content */,
+				E4287D7A2A0A12B800E38CDC /* HexagonParameters.swift */,
 			);
 			path = HexagonParameters;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4287D7B2A0A12B800E38CDC /* HexagonParameters.swift in Sources */,
 				E4287D6E2A0A117600E38CDC /* ContentView.swift in Sources */,
 				E4287D6C2A0A117600E38CDC /* HexagonParametersApp.swift in Sources */,
 			);
