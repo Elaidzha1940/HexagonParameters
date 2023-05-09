@@ -13,6 +13,7 @@
 		E4287D742A0A117700E38CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4287D732A0A117700E38CDC /* Preview Assets.xcassets */; };
 		E4287D7B2A0A12B800E38CDC /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D7A2A0A12B800E38CDC /* HexagonParameters.swift */; };
 		E4287D7D2A0A144900E38CDC /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D7C2A0A144900E38CDC /* BadgeBackground.swift */; };
+		E4287D7F2A0A161900E38CDC /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D7E2A0A161900E38CDC /* BadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E4287D732A0A117700E38CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4287D7A2A0A12B800E38CDC /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		E4287D7C2A0A144900E38CDC /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		E4287D7E2A0A161900E38CDC /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E4287D722A0A117700E38CDC /* Preview Content */,
 				E4287D7A2A0A12B800E38CDC /* HexagonParameters.swift */,
 				E4287D7C2A0A144900E38CDC /* BadgeBackground.swift */,
+				E4287D7E2A0A161900E38CDC /* BadgeSymbol.swift */,
 			);
 			path = HexagonParameters;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				E4287D7B2A0A12B800E38CDC /* HexagonParameters.swift in Sources */,
 				E4287D6E2A0A117600E38CDC /* ContentView.swift in Sources */,
 				E4287D6C2A0A117600E38CDC /* HexagonParametersApp.swift in Sources */,
+				E4287D7F2A0A161900E38CDC /* BadgeSymbol.swift in Sources */,
 				E4287D7D2A0A144900E38CDC /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
