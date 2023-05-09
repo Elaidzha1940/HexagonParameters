@@ -1,9 +1,11 @@
+//  /*
 //
-//  Badge.swift
-//  HexagonParameters
+//  Project: HexagonParameters
+//  File: Badge.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 09.05.2023
 //
-//  Created by Elaidzha Shchukin on 09.05.2023.
-//
+//  */
 
 import SwiftUI
 
