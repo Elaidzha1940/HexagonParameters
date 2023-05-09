@@ -15,6 +15,7 @@
 		E4287D7D2A0A144900E38CDC /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D7C2A0A144900E38CDC /* BadgeBackground.swift */; };
 		E4287D7F2A0A161900E38CDC /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D7E2A0A161900E38CDC /* BadgeSymbol.swift */; };
 		E4287D812A0A174300E38CDC /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D802A0A174300E38CDC /* RotatedBadgeSymbol.swift */; };
+		E4287D832A0A17FA00E38CDC /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287D822A0A17FA00E38CDC /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E4287D7C2A0A144900E38CDC /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		E4287D7E2A0A161900E38CDC /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		E4287D802A0A174300E38CDC /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		E4287D822A0A17FA00E38CDC /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E4287D7C2A0A144900E38CDC /* BadgeBackground.swift */,
 				E4287D7E2A0A161900E38CDC /* BadgeSymbol.swift */,
 				E4287D802A0A174300E38CDC /* RotatedBadgeSymbol.swift */,
+				E4287D822A0A17FA00E38CDC /* Badge.swift */,
 			);
 			path = HexagonParameters;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4287D832A0A17FA00E38CDC /* Badge.swift in Sources */,
 				E4287D7B2A0A12B800E38CDC /* HexagonParameters.swift in Sources */,
 				E4287D6E2A0A117600E38CDC /* ContentView.swift in Sources */,
 				E4287D6C2A0A117600E38CDC /* HexagonParametersApp.swift in Sources */,
@@ -295,7 +299,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -333,7 +337,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
